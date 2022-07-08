@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=The+Nautigal:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=The+Nautigal:wght@700&display=swap');
+html,body{
+    height:100%;
+    margin:0;
+    display: flex;
+    flex-direction: column;
+    background-color: grey;
+
+}
+
+
+.cabecera{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 0px;
+    padding: 10px;
+    background-color: rgb(162, 216, 216);
+    
+
+}
+#menuimg{
+    height: 50px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#titulo{
+    text-align: center;
+    margin: auto;
+    text-decoration: none;
+    color: black;
+    font-family: 'The Nautigal', cursive;
+
+    
+    
+}
+.contenido{
+    
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+    
+    
+    
+}
+.seccion{
+    background-color: beige;
+    width: 70%;
+    margin: auto;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    padding-bottom: 5%;
+    margin-bottom: 2%;
+    
+    
+}
+.formulario > div{
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+}
+
+.imagenes{
+    background-color: beige;
+    width: 70%;
+    margin: auto;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+
+}
+#imgtecnologia{
+    height: 200px;
+    width: 200px;
+    margin: auto;
+    
+}
+#cimg{
+    margin: auto;
+
+}
+
+
+.botpasimg{
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+    
+}
+.circulo{
+    height: 20px;
+    margin: auto;
+}
+#flechaizq{
+    transform:rotate(180deg);
+}
+#flechader{
+    margin-left: auto;
+}
+.cabeceradiv{
+    position: relative;
+    top: 0px;
+    background-color: #9fbfbb;
+    width: 100%;
+    margin: 0px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-bottom: 5%;
+    padding-top: 2%;
+    
+}
+.titseccion{
+    margin-left: 5%;
+    font-family: 'Open Sans', 'Arial';
+}
+.menu{
+    background-color: rgb(91, 201, 201);
+    display: flex;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.menu > div{
+
+    margin: auto;
+    
+    height: 100%;
+}
+.ocultar{
+    display: none;
+}
+.mostrar{
+    display: block;
+}
+.enlacemenu{
+    color: black;
+    text-decoration: none;
+    font-size: x-large;
+    
+}
+.rrss{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.rrss > div{
+    margin: auto;
+}
+.imgrrss{
+    height: 100px;
+}
+#usrimg{
+    height: 50px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+#enlaceusuario{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.contacto{
+    
+    width: 70%;
+    margin: auto;
+}

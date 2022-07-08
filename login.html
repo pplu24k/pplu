@@ -1,0 +1,41 @@
+<?php include("scriptsbbdd/conexion.php"); ?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style/li_style.css">
+
+    <title>Iniciar Sesión</title>
+</head>
+<body>
+
+<div class="cabecera">
+    <h2 class="textcabecera">Iniciar sesión</h2>
+</div>
+
+    <form class="boxis" action="login.php" method="post">
+    <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Nombre de usuario</label>
+        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="nick">
+        <div id="emailHelp" class="form-text"></div>
+    </div>
+    <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+        <input type="password" class="form-control" id="exampleInputPassword1" name="pass">
+    </div>
+    <div class="mb-3 form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1" name="recordar">
+        <label class="form-check-label" for="exampleCheck1">Recordarme</label>
+    </div>
+    <button type="submit" class="btn btn-primary">Iniciar sesión</button>
+    ¿No tienes cuenta? <a href="logup.html">Registrarse</a>
+    </form>
+
+    
+    
+    
+</body>
+</html>
